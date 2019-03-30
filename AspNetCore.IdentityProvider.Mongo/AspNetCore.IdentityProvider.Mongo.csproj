@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Copyright>Ovais Hanif 2019</Copyright>
     <PackageLicenseUrl>https://github.com/ovaishanif94/AspNetCore.IdentityProvider.Mongo/blob/master/LICENSE</PackageLicenseUrl>
     <Description>MongoDB provider for the ASP.NET Core 2.2 Identity framework.</Description>
@@ -12,6 +12,8 @@
     <PackageTags>aspnetcore, aspnetcoreidentity, mongoidentity, aspnetcoremongoidentity, mongoidentityprovider</PackageTags>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>SigningKey.pfx</AssemblyOriginatorKeyFile>
+    <Version>1.0.1</Version>
+    <Authors>Ovais Hanif</Authors>
   </PropertyGroup>
 
   <ItemGroup>
