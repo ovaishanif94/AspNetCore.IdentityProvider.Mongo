@@ -1,5 +1,7 @@
 # AspNetCore.IdentityProvider.Mongo
-MongoDB provider for the ASP.NET Core 2.2 Identity framework. 
+MongoDB provider for the ASP.NET Core >= 2.1 Identity framework.
+
+[![GitHub license](https://img.shields.io/github/license/ovaishanif94/AspNetCore.IdentityProvider.Mongo.svg)](https://github.com/ovaishanif94/AspNetCore.IdentityProvider.Mongo/blob/master/LICENSE) [![Nuget downloads](https://img.shields.io/nuget/dt/AspNetCore.IdentityProvider.Mongo.svg)](https://www.nuget.org/packages/AspNetCore.IdentityProvider.Mongo/) [![Nuget downloads](https://img.shields.io/nuget/v/AspNetCore.IdentityProvider.Mongo.svg)](https://www.nuget.org/packages/AspNetCore.IdentityProvider.Mongo/) [![GitHub issues](https://img.shields.io/github/issues/ovaishanif94/AspNetCore.IdentityProvider.Mongo.svg)](https://GitHub.com/ovaishanif94/AspNetCore.IdentityProvider.Mongo/issues/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ovaishanif94/AspNetCore.IdentityProvider.Mongo/graphs/commit-activity)
 
 ### Download
 The latest stable release is available on NuGet: https://www.nuget.org/packages/AspNetCore.IdentityProvider.Mongo/
