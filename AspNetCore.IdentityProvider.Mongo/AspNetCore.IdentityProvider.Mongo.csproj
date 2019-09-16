@@ -1,20 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Copyright>Ovais Hanif 2019</Copyright>
     <PackageLicenseUrl>https://github.com/ovaishanif94/AspNetCore.IdentityProvider.Mongo/blob/master/LICENSE</PackageLicenseUrl>
-    <Description>MongoDB provider for the ASP.NET Core &gt;= 2.1 Identity framework.</Description>
+    <Description>MongoDB provider for the ASP.NET Core 2.2 Identity framework.</Description>
     <PackageProjectUrl>https://github.com/ovaishanif94/AspNetCore.IdentityProvider.Mongo</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ovaishanif94/AspNetCore.IdentityProvider.Mongo</RepositoryUrl>
     <PackageTags>aspnet, core, aspnetcore, provider, identity, mongo, mongodb, userstore, signinmanager, rolestore, nosql</PackageTags>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>SigningKey.pfx</AssemblyOriginatorKeyFile>
-    <Version>1.0.3</Version>
+    <Version>2.2</Version>
     <Authors>Ovais Hanif</Authors>
-    <PackageReleaseNotes>Compatible with &gt;= 2.1 dotnet core framework</PackageReleaseNotes>
+    <PackageReleaseNotes>Compatible with 2.2 dotnet core framework</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -22,11 +21,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.1.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.1.0" />
-    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="2.1.0" />
-    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="2.1.0" />
-    <PackageReference Include="MongoDB.Driver" Version="2.8.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="2.2.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.9.1" />
   </ItemGroup>
   
 </Project>
